@@ -2,7 +2,8 @@
 
 var NodeState = Backbone.Model.extend({
     defaults: {
-        master: false
+        master: false,
+        data_node: false
     }
 });
 
@@ -25,6 +26,13 @@ var NodesState = Backbone.Collection.extend({
         var nodeValues = _.values(nodes);
         for (var i = 0; i < nodeIds.length; i++) {
             nodeValues[i].id = nodeIds[i];
+        }
+        // set data nodes
+        for (var i = 0; i < nodeIds.length; i++) {
+        if (!(typeof nodeValues[i].attributes != 'undefined') || !(typeof nodeValues[i].attributes.data != 'undefined')
+              || nodeValues[i].attributes.data == "true") {
+            nodeValues[i].data_node = true;
+          }
         }
         return nodeValues;
     },

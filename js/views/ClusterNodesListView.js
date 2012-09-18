@@ -49,8 +49,14 @@ var ClusterNodesListView = Backbone.View.extend({
     addNode: function(model) {
         var _view = this;
         var _class = "clusterNode";
-        if (model.get("master")) {
+        if (model.get("master") && model.get("data_node")) {
+            _class += " superNode";
+        }
+        else if (model.get("master")) {
             _class += " masterNode";
+        }
+        else if (model.get("data_node")) {
+            _class += " dataNode";
         }
         var div = _view.make("div", {
                 "class": _class,

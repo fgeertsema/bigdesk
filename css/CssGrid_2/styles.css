@@ -11,6 +11,14 @@
         background: url("../../images/award_star_gold.png") no-repeat 1px 3px;
     }
 
+    .dataNode {
+        background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
+    }
+
+    .superNode {
+        background: url("../../images/award_star_super.png") no-repeat 1px 1px;
+    }
+
 @media only screen and (max-width: 1023px) {
 
     body {}
@@ -19,6 +27,12 @@
     }
     .masterNode {
         background: url("../../images/award_star_gold.png") no-repeat 1px 1px;
+    }
+    .dataNode {
+        background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
+    }
+    .superNode {
+        background: url("../../images/award_star_super.png") no-repeat 1px 1px;
     }
 }
 
@@ -34,6 +48,12 @@
     }
     .masterNode {
         background: url("../../images/award_star_gold.png") no-repeat 1px 1px;
+    }
+    .dataNode {
+        background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
+    }
+    .superNode {
+        background: url("../../images/award_star_super.png") no-repeat 1px 1px;
     }
 }
 

@@ -96,6 +96,15 @@ h3 {
     padding-left: 20px;
     /*background: url("../images/award_star_gold.png") no-repeat 1px 3px;*/
 }
+.dataNode {
+    padding-left: 20px;
+    /*background: url("../images/award_star_silver.png") no-repeat 1px 3px;*/
+}
+.superNode {
+    padding-left: 20px;
+    /*background: url("../images/award_star_super.png") no-repeat 1px 3px;*/
+}
+
 
 /* TODO css for chart, move it into different file */
 .line {
