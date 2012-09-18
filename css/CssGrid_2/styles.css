@@ -15,7 +15,7 @@
         background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
     }
 
-    .superNode {
+    .masterNode.dataNode {
         background: url("../../images/award_star_super.png") no-repeat 1px 1px;
     }
 
@@ -31,7 +31,7 @@
     .dataNode {
         background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
     }
-    .superNode {
+    .masterNode.dataNode {
         background: url("../../images/award_star_super.png") no-repeat 1px 1px;
     }
 }
@@ -52,7 +52,7 @@
     .dataNode {
         background: url("../../images/award_star_silver.png") no-repeat 1px 1px;
     }
-    .superNode {
+    .masterNode.dataNode {
         background: url("../../images/award_star_super.png") no-repeat 1px 1px;
     }
 }
